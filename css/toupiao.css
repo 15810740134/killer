@@ -1,0 +1,44 @@
+.content{
+    background: #34bede;
+}
+
+.head_vote{
+    display: flex;
+    padding:1rem .3rem 0 .3rem;
+    justify-content:space-between;
+}
+
+.head_vote_img{
+    width: 1.6rem;
+    height: 1.6rem;
+    background: url(../img/填写日报.png) no-repeat;
+    background-size: 1.6rem;
+    background-position: center center;
+}
+
+.head_vote_title{
+    font-size: 1rem;
+    color: #fff;
+}
+
+.head_vote_close{
+    width: 1.5rem;
+    height: 1.5rem;
+    background: url(../img/错误.png) no-repeat;
+    background-size: 1.4rem;
+    background-position: center center;
+}
+
+.head_bar{
+    height: 2rem;
+    width: 100%;
+    background:#fff;
+    opacity: .5;
+
+}
+
+.lisen{
+    height: 1.5rem;
+    width: 1.5rem;
+    
+}

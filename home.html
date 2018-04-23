@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <!--<link href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.css" rel="stylesheet">-->
+    <link rel="stylesheet" href="css/home.css">
+    <title>Document</title>
+    <style>
+        @media screen and (device-width:320px) and (device-height:568px){
+            .last_game{
+                height: 3rem;
+                line-height: 3rem;
+                font-size: 15px;
+            }
+
+            .con_game_title{
+                height: 2rem;
+                line-height: 2rem;
+                font-size: 15px;
+            }
+            .con_game_item{
+                height: 3rem;
+                line-height: 3rem;
+                font-size: 15px;
+            }
+        }
+        
+        @media screen and (device-width:375px) and (device-height:667px){
+            .last_game{
+                height: 4.5rem;
+                line-height: 4.5rem;
+                
+            }
+
+            .con_game_title{
+                height: 3.5rem;
+                line-height: 3.5rem;
+                
+            }
+            .con_game_item{
+                height: 4rem;
+                line-height:4rem; 
+            }
+            .next{
+                position: absolute;
+                top: 50%;
+            }
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="content">
+        <header class="head_base"><a href="#" class="bar_menu"></a></header>
+        <div class="row center_row">
+            <div class="col-xs-12 last_game">上次游戏：抓鬼猜词版
+            <span class="turn"></span>
+            </div>
+            <ul class="col-xs-12 con_game">
+                <li class="con_game_title">抓鬼游戏</li>
+                <li class="con_game_item">简化版</li>
+                <li class="game_info">有1133个人正在玩此款游戏</li>
+                <li class="con_game_item">简化版</li>
+                <li class="game_info">有1133个人正在玩此款游戏</li>
+                <li class="con_game_item">简化版</li>
+                <li class="game_info" style="margin-bottom: -.8rem">有1133个人正在玩此款游戏</li>
+                <li class="lunbo">
+                        <span class="bot"></span>
+                        <span class="bot"></span>
+                        <span class="bot"></span>
+                        <span class="bot"></span>
+                </li>
+
+                <span class="next"></span>
+            </ul>
+        </div>
+        
+    </div>
+
+</body>
+</html>
